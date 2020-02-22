@@ -12,7 +12,7 @@
 }
 
 body {
-    background:url(/img/background.jpg) !important;
+    background:url("https://raw.githubusercontent.com/mostafamohamedmostafa/foodshop/master/img/background.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     
