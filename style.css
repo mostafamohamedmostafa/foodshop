@@ -46,10 +46,20 @@ body {
 .header-head {
     color: lightseagreen;
     transition: ease-in-out 2s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: ease-in-out 2s;
+    -moz-transition: ease-in-out 2s;
+    -ms-transition: ease-in-out 2s;
+    -o-transition: ease-in-out 2s;
+    background: linear-gradient(to left, #bdee0d 40%, rgb(228, 13, 13) 30%, #5bdaff 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s reverse infinite;
+    -webkit-animation: textclip 2s reverse infinite;
 }
 
 
@@ -67,10 +77,10 @@ body {
     color: orange;
     transition: cubic-bezier(0.23, 1, 0.320, 1) 4s;
     transition: linear 3s;
-    -webkit-transition: linear 3s;
-    -moz-transition: linear 3s;
-    -ms-transition: linear 3s;
-    -o-transition: linear 3s;
+    -webkit-transition: cubic-bezier(0.23, 1, 0.320, 1) 4s;
+    -moz-transition: cubic-bezier(0.23, 1, 0.320, 1) 4s;
+    -ms-transition: cubic-bezier(0.23, 1, 0.320, 1) 4s;
+    -o-transition: cubic-bezier(0.23, 1, 0.320, 1) 4s;
 }
 
 .products-header h1{
@@ -78,7 +88,7 @@ body {
    text-align: center;
    font-weight: 700;
    color: white;
-   font-style: italic;;
+   font-style: italic;
    margin: 15px;
    background: linear-gradient(to right, #e72a3a 10%, #fff 50%, #5bdaff 60%);
    background-size: auto auto;
@@ -90,6 +100,7 @@ body {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    animation: textclip 1.5s linear infinite;
+   -webkit-animation: textclip 1.5s linear infinite;
 }
 
 
